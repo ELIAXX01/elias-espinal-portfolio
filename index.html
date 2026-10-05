@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Elias Espinal — Web Developer enfocado en marketing, automatización, APIs y WPO.">
+  <title>Elias Espinal | Web Developer & Marketing Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#inicio">EE<span>.</span></a>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a class="nav-cta" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB DEVELOPMENT · MARKETING · AUTOMATION</p>
+        <h1>Construyo experiencias web que <span>convierten.</span></h1>
+        <p class="lead">Soy <strong>Elias Espinal</strong>, Web Developer enfocado en landing pages, integraciones API, automatización de marketing y optimización de rendimiento.</p>
+        <div class="actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn secondary" href="#contacto">Contactarme</a>
+        </div>
+        <div class="mini-stack">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>WordPress</span><span>REST APIs</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="code-head"><i></i><i></i><i></i><span>lead-integration.js</span></div>
+        <pre><code><b>const</b> lead = {
+  source: <em>"Landing Page"</em>,
+  campaign: <em>"Marketing"</em>,
+  status: <em>"new"</em>
+};
+
+<b>await</b> crm.createContact(lead);
+
+<span>// ✓ Lead enviado al CRM</span>
+<span>// ✓ Conversión registrada</span>
+<span>// ✓ Follow-up automatizado</span></code></pre>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div><strong>Performance</strong><span>WPO & Core Web Vitals</span></div>
+      <div><strong>Automation</strong><span>Formularios → CRM</span></div>
+      <div><strong>Conversion</strong><span>Landing pages optimizadas</span></div>
+      <div><strong>Integration</strong><span>REST APIs & Webhooks</span></div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <p class="eyebrow">PROYECTOS DESTACADOS</p>
+      <h2>Desarrollo pensado para <span>resultados de marketing.</span></h2>
+      <p class="section-intro">Proyectos demostrativos construidos para aplicar desarrollo web a problemas reales de captación, automatización y rendimiento.</p>
+
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-visual visual-one">
+            <div class="mock-browser">
+              <div class="browser-bar">● ● ● <small>campaign.example</small></div>
+              <div class="landing-mock">
+                <div><small>CRECE TU NEGOCIO</small><h3>Convierte visitas en clientes.</h3><p>Landing page enfocada en captación.</p><button>Solicitar información →</button></div>
+                <div class="mock-form"><b>Obtén más información</b><span>Nombre</span><span>Email</span><span>Teléfono</span><button>Enviar</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <span class="tag">01 · CONVERSIÓN</span>
+            <h3>Landing Page para Captación de Leads</h3>
+            <p>Landing responsive diseñada para una campaña digital, con formulario optimizado, validación en JavaScript, eventos de conversión y estructura enfocada en reducir fricción.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Marketing</span></div>
+            <p class="note">Proyecto demostrativo · preparado para medir conversiones reales.</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-copy">
+            <span class="tag">02 · AUTOMATIZACIÓN</span>
+            <h3>Formulario → CRM mediante API</h3>
+            <p>Flujo de integración para recibir leads desde una landing page, validar la información y enviarla a un CRM mediante una API REST, reduciendo el registro manual.</p>
+            <div class="flow"><span>Landing</span><b>→</b><span>API</span><b>→</b><span>CRM</span><b>→</b><span>Follow-up</span></div>
+            <div class="chips"><span>JavaScript</span><span>REST API</span><span>JSON</span><span>Webhooks</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-copy">
+            <span class="tag">03 · WPO</span>
+            <h3>Optimización de Rendimiento Web</h3>
+            <p>Laboratorio de optimización enfocado en carga diferida de imágenes, reducción de recursos bloqueantes, minificación y mejores prácticas de Core Web Vitals.</p>
+            <div class="metrics">
+              <div><strong>WPO</strong><span>Optimización técnica</span></div>
+              <div><strong>LCP</strong><span>Medición preparada</span></div>
+              <div><strong>CLS</strong><span>Layout estable</span></div>
+            </div>
+            <p class="note">Las métricas finales se documentan con Lighthouse al publicar el proyecto.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <p class="eyebrow">STACK & HERRAMIENTAS</p>
+      <h2>Lo que puedo aportar al <span>equipo de marketing.</span></h2>
+      <div class="skills-grid">
+        <div class="skill"><b>01</b><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Responsive Design</p></div>
+        <div class="skill"><b>02</b><h3>CMS</h3><p>WordPress · Landing Pages · Mantenimiento web</p></div>
+        <div class="skill"><b>03</b><h3>Integraciones</h3><p>REST APIs · JSON · Webhooks · Formularios → CRM</p></div>
+        <div class="skill"><b>04</b><h3>Performance</h3><p>Lighthouse · PageSpeed · WPO · Core Web Vitals</p></div>
+        <div class="skill"><b>05</b><h3>Marketing Tech</h3><p>Tracking · Conversión · Automatización · Captación</p></div>
+        <div class="skill"><b>06</b><h3>Organización</h3><p>Google Drive · Git/GitHub · Documentación · Gestión de entregas</p></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div>
+        <p class="eyebrow">SOBRE MÍ</p>
+        <h2>Código conectado con <span>objetivos de negocio.</span></h2>
+      </div>
+      <div>
+        <p>Me interesa el punto donde el desarrollo web y el marketing se encuentran: sitios rápidos, formularios que funcionan, datos que llegan al lugar correcto y procesos que pueden automatizarse.</p>
+        <p>Mi enfoque combina desarrollo frontend, integración de herramientas y optimización técnica para crear soluciones web útiles, medibles y fáciles de mantener.</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <p class="eyebrow">HABLEMOS</p>
+      <h2>¿Tienes un proyecto o una oportunidad?</h2>
+      <p>Estoy disponible para proyectos web y oportunidades donde pueda aportar en desarrollo, marketing tecnológico y automatización.</p>
+      <div class="actions center">
+        <a class="btn primary" href="mailto:TU_EMAIL_AQUI">Enviar email</a>
+        <a class="btn secondary" href="TU_LINKEDIN_AQUI" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn secondary" href="TU_GITHUB_AQUI" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <small>Reemplaza los enlaces de contacto antes de publicar.</small>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Elias Espinal</span><span>Web Developer · Marketing & Automation</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
